@@ -1,0 +1,44 @@
+#container{
+   background: pink;
+   text-align: center;
+ }
+a:link {
+   text-decoration: none;
+ }
+a:hover {
+  color: green;
+  text-decoration: underline;
+}
+.menu-item-price:before {
+  content: "$";
+}
+nav ul li {
+  display: inline-block;
+}
+.menu-item-name {
+  float: left;
+  width: 5%;
+  text-align: left;
+  color: yellow;
+}
+.menu-item-price {
+  float: right;
+  width: 5%;
+  text-align: left;
+  color: yellow;
+}
+.menu-item-description:before {
+  content: "-"
+}
+.menu-item-description {
+  float: left;
+  width: 90%;
+  text-align: justify;
+  /*white-space: normal;*/
+}
+ul {
+  list-style-type: none;
+}
+img {
+  float: right;
+}
