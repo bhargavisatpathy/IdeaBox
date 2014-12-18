@@ -4,8 +4,9 @@ class IdeaBoxApp < Sinatra::Base
   set :method_override, true
   set :root, 'lib/app'
 
-  # register Sinatra::Partial
-  # set :partial_template_engine, :erb
+  register Sinatra::Partial
+  set :partial_template_engine, :erb
+  
   not_found do
     erb :error
   end

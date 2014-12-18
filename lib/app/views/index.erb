@@ -14,7 +14,8 @@
       <input type="text" name="search_phrase" value="<%= search_phrase %>">
       <input type='submit' value="search"/>
     </form>
-      <ul>
+    <%= partial :'partials/idea', collection: ideas %>
+      <!-- <ul>
         <% ideas.each do |idea| %>
         <li>
           <form action='/<%= idea.id %>/like' method='POST' style="display: inline">
@@ -30,4 +31,4 @@
           <br/>
         </li>
         <% end %>
-    </ul>
+    </ul> -->
