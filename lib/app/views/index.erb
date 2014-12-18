@@ -5,10 +5,10 @@
         Your Idea:
       </p>
       <input type='text' name='idea[title]'/><br/>
-      <textarea name='idea[description]'></textarea><br/>
+      <textarea name='idea[description]'></textarea><br/><br/>
       <input type='submit'/>
     </form>
-
+    <br/>
     <h3>Existing Ideas</h3>
     <form action='/' method='GET'>
       <input type="text" name="search_phrase" value="<%= search_phrase %>">
@@ -27,6 +27,7 @@
             <input type="hidden" name="_method" value="DELETE">
             <input type='submit' value="delete"/>
           </form>
+          <br/>
         </li>
         <% end %>
     </ul>
