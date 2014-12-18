@@ -9,6 +9,11 @@ class IdeaStore
     ideas
   end
 
+
+  def self.set_database(db)
+    @database = db 
+  end
+
   def self.database
     return @database if @database
 

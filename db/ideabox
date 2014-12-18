@@ -1,7 +1,5 @@
 ---
 ideas:
-- title: diet
-  description: pizza all the time
 - title: exercise
   description: Play video games
 - title: app
@@ -12,3 +10,5 @@ ideas:
   description: dance all night and all day
 - title: story
   description: a princess steals a spaceship
+- title: diet
+  description: pizza all the time
